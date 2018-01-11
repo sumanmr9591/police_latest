@@ -165,8 +165,8 @@ a:active{
     font-size:1.2em;
 }
 #footer{
-    background-color:#000000;
-    color:#ffffff;
+    background-color:rgb(38,38,38);
+    color:rgb(179,179,165);
     font-size:2em;
     text-align:center;
     padding:25px;
