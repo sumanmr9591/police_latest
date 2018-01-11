@@ -1,0 +1,219 @@
+<!doctype html>
+<html class="no-js" lang="">
+   <head>
+      <title>Police Website</title>
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1">
+      <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+      <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+      <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+      <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+      <link href="css/style.css" rel="stylesheet" type="text/css"/>
+   </head>
+   <body>
+      <div class="container-fluid">
+         <div class="row">
+            <div class="col-md-1 col-sm-0 col-lg-1 col-xs-0"></div>
+            <div class="col-md-10 col-sm-12 col-lg-10 col-xs-12" id="header">
+               <div class="row">
+                  <div class="hidden-xs hidden-sm" style="float:left;"><img style="margin-top:2px;margin-left:20px;" src="img/police_logo.png"/></div>
+                   <div class="show-xs hidden-lg hidden-md hidden-sm show-sm" style="float:left;"><img style="margin-top:2px;margin-left:40%;" src="img/karnatakagovernment.jpg"/></div>
+                  <div class="hidden-xs" id="officerName" style="float:right">
+                     <p>Officer Name</p>
+                  </div>
+               </div>
+            </div>
+            <div class="col-md-1 col-sm-0 col-lg-1 col-xs-0"></div>
+         </div>
+         <div class="row">
+            <div class="col-md-1 col-sm-0 col-lg-1 col-xs-0"></div>
+            <div class="col-md-10 col-sm-12 col-lg-10 col-xs-12" id="navigatorContainer">
+               <ul id="navUL">
+                  <li><a href="#home">Home</a></li>
+                  <li><a href="#abtDiv">About</a></li>
+                  <li><a href="#contact">Contact</a></li>
+                  <li><a href="#image-slider">Gallery</a></li>
+               </ul>
+            </div>
+            
+         </div>
+         <div class="row" id="home">
+            <div class="col-md-1 col-sm-0 col-lg-1 col-xs-0"></div>
+            <div class="col-md-10 col-sm-12 col-lg-10 col-xs-12" id="corouselContainer" style="background-color:#ffffff;">
+               <!--   this id image-slider is important and it will match on Left and right controls -->
+               <div id="image-slider" class="carousel slide" data-ride="carousel">
+                  <!-- Indicators -->
+                  <ol class="carousel-indicators">
+                     <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+                     <li data-target="#myCarousel" data-slide-to="1"></li>
+                     <li data-target="#myCarousel" data-slide-to="2"></li>
+                  </ol>
+                  <!-- Wrapper for slides -->
+                  <div class="carousel-inner">
+                     <div class="item active">
+                        <!-- here is path of your images where is it in your server and computer-->
+                        <img src="img/corouselOne.jpg" alt="Los Angeles" style="width:100%;">
+                        <!-- <div class="title-subtilte">
+                           <h3>Responsive Slider for your website</h3>
+                           <p>It is a long established fact that a reader will be distracted by the readable content of a page It is a long established fact that</p>
+                           </div> -->
+                        <div class="slider-overlay"></div>
+                     </div>
+                     <div class="item">
+                        <!-- here is path of your images where is it in your server and computer-->
+                        <img src="img/corouselOne.jpg" alt="Chicago" style="width:100%;">
+                        <!-- <div class="title-subtilte">
+                           <h3>Web development with security</h3>
+                           <p>It is a long established fact that a reader will be distracted by the rIt is a long established fact that</p>
+                           </div> -->
+                        <div class="slider-overlay"></div>
+                     </div>
+                     <div class="item">
+                        <!-- here is path of your images where is it in your server and computer-->
+                        <img src="img/corouselOne.jpg" alt="New york" style="width:100%;">
+                        <!-- <div class="title-subtilte">
+                           <h3>Make responsive image slider</h3>
+                           <p>It is a long established fact that a reader will be distracted by the readable content of a page It is a long established fact that It is a long established fact</p>
+                           </div> -->
+                        <div class="slider-overlay"></div>
+                     </div>
+                  </div>
+                  <!-- Left and right controls -->
+                  <!-- see this id above i have mention image-slider  -->
+                  <a class="left carousel-control" href="#image-slider" data-slide="prev">
+                  <span class=""><i class="fa fa-angle-left" aria-hidden="true"></i></span>
+                  </a>
+                  <a class="right carousel-control" href="#image-slider" data-slide="next">
+                  <span class=""><i class="fa fa-angle-right" aria-hidden="true"></i></span>
+                  </a>
+               </div>
+            </div>
+            <div class="col-md-1 col-sm-0 col-lg-1 col-xs-0"></div>
+         </div>
+         <div class="row">
+            <div class="col-md-1 col-sm-0 col-lg-1 col-xs-0"></div>
+            <div class="col-md-10 col-sm-12 col-lg-10 col-xs-12" style="background-color:#ffffff;">
+               <div class="row">
+                  <div  class="col-md-4 col-sm-4 col-xs-12 col-lg-4" >
+                    <div id="picDiv"> <div id="picDivIn" style="border:2px solid rgb(87,127,174); height: 232px;
+    width: 225px;"><img src="img/dp.jpg" /></div><div id="picDivTile" style="text-align:center;color:rgb(87,127,174);font-size:1.2em;font-weight:bold;"><p>Mr. Officer name</p>
+      <p style="margin-top: -12px;font-size:0.8em;">Superentandant of police</p></div></div>
+                  </div>
+                  <div id="msgDiv" class="col-md-8 col-sm-8 col-xs-12 col-lg-8">
+                     <h3 style="color:rgb(32,81,150);">Message</h3>
+                     <p>Write some meassge here</p>
+                     <p> Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.</p>
+                     <p> Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.</p>
+                  </div>
+               </div>
+            </div>
+         </div>
+         <div class="row">
+            <div class="col-md-1 col-sm-0 col-lg-1 col-xs-0"></div>
+            <div class="col-md-10 col-sm-12 col-lg-10 col-xs-12 horDivider"></div>
+         </div>
+         <div class="row">
+            <div class="col-md-1 col-sm-0 col-lg-1 col-xs-0"></div>
+            <div class="col-md-10 col-sm-12 col-lg-10 col-xs-12" style="background-color:#ffffff;">
+               <div class="row">
+                  <div class="col-md-4 col-sm-4 col-xs-12 col-lg-4">
+                     <div id="achDiv">
+                        <h3 style="color:rgb(32,81,150);">Achievements</h3>
+                             <ul id="achUL">
+                              <li>Some achievement that you can write here</li>
+                              <li>Some achievement that you can write here</li>
+                              <li>Some achievement that you can write here</li>
+                              <li>Some achievement that you can write here</li>
+                              <li>Some achievement that you can write here</li>
+                           </ul>
+                     </div>
+                    
+                  </div>
+                  <div id="abtDiv" class="col-md-8 col-sm-8 col-xs-12 col-lg-8" >
+                     <h3 style="margin-bottom:20px;color:rgb(32,81,150);">About</h3>
+                     <p>Write something about the officer</p>
+                     <p> Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.</p>
+                     <p> Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.</p>
+                  </div>
+               </div>
+
+            </div>
+         </div>
+         <div class="row">
+            <div class="col-md-1 col-sm-0 col-lg-1 col-xs-0"></div>
+            <div class="col-md-10 col-sm-12 col-lg-10 col-xs-12 horDivider"></div>
+         </div>
+         <div class="row">
+            <div class="col-md-1 col-sm-0 col-lg-1 col-xs-0"></div>
+            <div class="col-md-10 col-sm-12 col-lg-10 col-xs-12" style="background-color:#ffffff">
+               <div class="row" id="contact" style="text-align:center;color:rgb(87,127,174)"><h3 style="color:rgb(32,81,150);">Contact Details</h3></div>
+               <div class="row">
+                  <div class="col-lg-4 col-sm-4 col-xs-12 col-md-4" style="text-align:center;color:rgb(87,127,174);font-size: 1.2em;margin-bottom:10px;">
+                     <h3 style="color:rgb(32,81,150);">Address</h3>
+                     <p style="font-weight:bold">Home</p>
+                     <p>Street
+                     1, A Wing, Deep Tower, Waliv Road, Golani Complex, Vasai (east)
+                     City
+                      Mumbai
+                     State Full
+                      Maharashtra
+                     Zip Code
+                     401208</p>
+                      <p style="font-weight:bold">Office</p>
+                      <p>Street
+                     1, A Wing, Deep Tower, Waliv Road, Golani Complex, Vasai (east)
+                     City
+                      Mumbai
+                     State Full
+                      Maharashtra
+                     Zip Code
+                     401208
+                     </p>
+                  </div>
+                  <div class="col-lg-4 col-sm-4 col-xs-12 col-md-4" style="text-align:center;color:rgb(87,127,174);font-size: 1.2em;margin-bottom:10px;">
+                     <h3 style="color:rgb(32,81,150);">Phone</h3>
+                     <p style="font-weight:bold">Office</p>
+                     <p>+91 81XXXXXXXX</p>
+                     <p>+91 81XXXXXXXX</p>
+                      <p style="font-weight:bold">Personal</p>
+                       <p>+91 81XXXXXXXX</p>
+                     <p>+91 81XXXXXXXX</p>
+                  </div>
+                  <div class="col-lg-4 col-sm-4 col-xs-12 col-md-4" style="text-align:center;color:rgb(87,127,174);font-size: 1.2em;margin-bottom:10px;">
+                     <h3 style="color:rgb(32,81,150);">Email</h3>
+                     <p style="font-weight:bold">Office</p>
+                     <p>something@gmail.com</p>
+                    <p>something@gmail.com</p>
+                      <p style="font-weight:bold">Personal</p>
+                       <p>something@gmail.com</p>
+                       <p>something@gmail.com</p>
+                  </div>
+               </div>
+            </div>
+         </div>
+         <div class="row">
+            <div class="col-md-1 col-sm-0 col-lg-1 col-xs-0"></div>
+            <div class="col-md-10 col-sm-12 col-lg-10 col-xs-12 horDivider"></div>
+         </div>
+         <div class="row" >
+            <div class="col-md-1 col-sm-0 col-lg-1 col-xs-0"></div>
+            <div id="footer" class="col-md-10 col-sm-12 col-lg-10 col-xs-12">
+               <p id="footerContent">Copyright &#9400; 2018, mnaikpolice</p>
+            </div>
+            
+
+
+         </div>
+      </div>
+      <script src="js/vendor/modernizr-3.5.0.min.js"></script>
+      <script>window.jQuery || document.write('<script src="js/vendor/jquery-3.2.1.min.js"><\/script>')</script>
+      <script src="js/plugins.js"></script>
+      <script src="js/main.js"></script>
+      <!-- Google Analytics: change UA-XXXXX-Y to be your site's ID. -->
+      <script>
+         window.ga=function(){ga.q.push(arguments)};ga.q=[];ga.l=+new Date;
+         ga('create','UA-XXXXX-Y','auto');ga('send','pageview')
+      </script>
+      <script src="https://www.google-analytics.com/analytics.js" async defer></script>
+   </body>
+</html>

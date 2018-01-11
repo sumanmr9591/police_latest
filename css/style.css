@@ -1,0 +1,173 @@
+
+body{
+	background-color: #ccc;
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+}
+
+
+.title-subtilte{
+    color: #fff;
+    position: absolute;
+    top: 50%;
+    z-index: 1!important;
+    left: 50%;
+    text-align: center;
+    transform: translate(-50%, -50%);
+}
+
+.title-subtilte h3{
+    font-size: 3em;
+    font-family: sans-serif;
+}
+
+.title-subtilte p{
+    font-size: 20px;
+}
+
+
+.slider-overlay{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    z-index: 0;
+    background: rgba(0, 0, 0, 0.4);
+    top: 0;
+
+}
+
+.carousel-control{
+    top: 50%;
+}
+
+.carousel-control span i{
+    font-size: 20px;
+    width: 30px;
+    padding: 2px;
+    height: 30px;
+    border-radius: 50%;
+    border: 2px solid #ccc;
+}
+
+
+/*for making responsive */
+@media only screen and (max-width: 500px) {
+    
+    .title-subtilte{
+        text-align:left;
+        width: 76%;
+    }
+    
+    .title-subtilte h3{
+        font-size: 1.5em;
+        font-family: sans-serif;
+    }
+    h3{
+        font-size: 1.5em;
+        font-family:sans-serif;
+
+    }
+    p{
+        font-size:10px;
+    }
+
+    .title-subtilte p{
+        font-size: 10px;
+    }
+    #picDivIn{
+        margin-top: 10%;
+    margin-left: 15%;
+    }
+    #picDivTile{
+        margin-top:3%;
+    }
+    #footerContent{
+        font-size: 0.5em;
+    }
+}
+@media only screen and (min-width:501px){
+    #picDivIn{
+        margin-top: 7%;
+    margin-left: 25%;
+
+    }
+    #picDivTile{
+        margin-top:2%;
+    }
+    #footerContent{
+        font-size: 0.8em;
+    }
+}
+
+#header{
+	background-color:#ffffff;
+    height:150px;
+}
+#navigatorContainer{
+	background-color:rgb(87,127,174);
+	padding-top: 15px;
+}
+#navUL{
+	list-style: none;
+}
+#navUL> li{
+	display: inline-block;
+	color:#ffffff;
+	font-weight:bold;
+	cursor:pointer;
+	padding:0px 100px 0px 0px;
+}
+a{
+    color:#ffffff;
+    font-weight:bold;
+    cursor:pointer;
+}
+a:active{
+    color:#000000;
+    font-weight:bold;
+    cursor:pointer;
+}
+#officerName{
+        float: right;
+    margin-top: 3%;
+    margin-right: 5%;
+    font-size: 18px;
+    color:rgb(87,127,174);
+}
+#msgDiv{
+    text-align:center;
+    padding:10px;
+     color:rgb(87,127,174);
+     font-size:1.2em;
+}
+#abtDiv{
+     text-align:center;
+    padding:10px;
+     color:rgb(87,127,174);
+     font-size:1.2em;
+}
+
+#achDiv{
+    text-align:center;
+     color:rgb(87,127,174);
+     font-size:1.2em;
+}
+.horDivider{
+    height:2px;
+    background-color:rgb(87,127,174);
+}
+#achUL{
+    list-style: none;
+}
+#achUL > li{
+    margin: 25px 25px 25px 0px;
+    font-size:1.2em;
+}
+#footer{
+    background-color:#000000;
+    color:#ffffff;
+    font-size:2em;
+    text-align:center;
+    padding:25px;
+}
