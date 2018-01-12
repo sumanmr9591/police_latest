@@ -16,10 +16,12 @@
             <div class="col-md-1 col-sm-0 col-lg-1 col-xs-0"></div>
             <div class="col-md-10 col-sm-12 col-lg-10 col-xs-12" id="header">
                <div class="row">
-                  <div class="hidden-xs hidden-sm" style="float:left;"><img style="margin-top:2px;margin-left:20px;" src="img/police_logo.png"/></div>
-                   <div class="show-xs hidden-lg hidden-md hidden-sm show-sm" style="float:left;"><img style="margin-top:2px;margin-left:40%;" src="img/karnatakagovernment.jpg"/></div>
-                  <div class="hidden-xs" id="officerName" style="float:right">
-                     <p>Officer Name</p>
+                  <div class="hidden-xs hidden-sm" style="float:left;"><img style="margin-top:2px;margin-left:20px;" src="img/police_logo_new.png"/></div>
+                   <div class="  show-sm show-xs hidden-lg hidden-md hidden-sm show-sm" style="float:left;"><img style="margin-top:0px;margin-left:7%;" src="img/policeIcon.png"/></div>
+                  <div  id="officerName" style="float:right;text-align:center;font-style:oblique;">
+                     <p id="Name" style="color:#14213d;">Mr. Madhya Naik</br>
+                    SubInspector of Police</br>
+                     Kollegal, Karnataka</p>
                   </div>
                </div>
             </div>
@@ -27,19 +29,27 @@
          </div>
          <div class="row">
             <div class="col-md-1 col-sm-0 col-lg-1 col-xs-0"></div>
-            <div class="col-md-10 col-sm-12 col-lg-10 col-xs-12" id="navigatorContainer">
-               <ul id="navUL">
+            <div class="col-md-10 col-sm-12 col-lg-10 col-xs-12" style="font-style:normal;">
+               <!-- <ul id="navUL">
                   <li><a href="#home">Home</a></li>
                   <li><a href="#abtDiv">About</a></li>
                   <li><a href="#contact">Contact</a></li>
                   <li><a href="#image-slider">Gallery</a></li>
-               </ul>
+               </ul> -->
+               <div class="topnav" id="myTopnav">
+                 <a href="#home" class="active">Home</a>
+                 <a href="#abtDiv">About</a>
+                 <a href="#contact">Contact</a>
+                 <a href="#image-slider">Gallery</a>
+                 <a href="javascript:void(0);" style="font-size:15px;" class="icon" onclick="myFunction()">&#9776;</a>
+               </div>
+
             </div>
             
          </div>
          <div class="row" id="home">
             <div class="col-md-1 col-sm-0 col-lg-1 col-xs-0"></div>
-            <div class="col-md-10 col-sm-12 col-lg-10 col-xs-12" id="corouselContainer" style="background-color:#ffffff;">
+            <div class="col-md-10 col-sm-12 col-lg-10 col-xs-12" id="corouselContainer">
                <!--   this id image-slider is important and it will match on Left and right controls -->
                <div id="image-slider" class="carousel slide" data-ride="carousel">
                   <!-- Indicators -->
@@ -51,30 +61,23 @@
                   <!-- Wrapper for slides -->
                   <div class="carousel-inner">
                      <div class="item active">
-                        <!-- here is path of your images where is it in your server and computer-->
-                        <img src="img/corouselOne.jpg" alt="Los Angeles" style="width:100%;">
-                        <!-- <div class="title-subtilte">
-                           <h3>Responsive Slider for your website</h3>
-                           <p>It is a long established fact that a reader will be distracted by the readable content of a page It is a long established fact that</p>
-                           </div> -->
+                        <img src="img/police/slideOne.jpg" alt="Los Angeles" style="width:100%;">
                         <div class="slider-overlay"></div>
                      </div>
                      <div class="item">
-                        <!-- here is path of your images where is it in your server and computer-->
-                        <img src="img/corouselOne.jpg" alt="Chicago" style="width:100%;">
-                        <!-- <div class="title-subtilte">
-                           <h3>Web development with security</h3>
-                           <p>It is a long established fact that a reader will be distracted by the rIt is a long established fact that</p>
-                           </div> -->
+                        <img src="img/police/slideTwo.jpg" alt="Chicago" style="width:100%;">
                         <div class="slider-overlay"></div>
                      </div>
                      <div class="item">
-                        <!-- here is path of your images where is it in your server and computer-->
-                        <img src="img/corouselOne.jpg" alt="New york" style="width:100%;">
-                        <!-- <div class="title-subtilte">
-                           <h3>Make responsive image slider</h3>
-                           <p>It is a long established fact that a reader will be distracted by the readable content of a page It is a long established fact that It is a long established fact</p>
-                           </div> -->
+                        <img src="img/police/slideThree.jpg" alt="New york" style="width:100%;">
+                        <div class="slider-overlay"></div>
+                     </div>
+                      <div class="item">
+                        <img src="img/police/slideFour.jpg" alt="New york" style="width:100%;">
+                        <div class="slider-overlay"></div>
+                     </div>
+                      <div class="item">
+                        <img src="img/police/slideFive.jpg" alt="New york" style="width:100%;">
                         <div class="slider-overlay"></div>
                      </div>
                   </div>
@@ -95,15 +98,18 @@
             <div class="col-md-10 col-sm-12 col-lg-10 col-xs-12" style="background-color:#ffffff;">
                <div class="row">
                   <div  class="col-md-4 col-sm-4 col-xs-12 col-lg-4" >
-                    <div id="picDiv"> <div id="picDivIn" style="border:2px solid rgb(87,127,174); height: 232px;
-    width: 225px;"><img src="img/dp.jpg" /></div><div id="picDivTile" style="text-align:center;color:rgb(87,127,174);font-size:1.2em;font-weight:bold;"><p>Mr. Officer name</p>
-      <p style="margin-top: -12px;font-size:0.8em;">Superentandant of police</p></div></div>
+                    <div id="picDiv"> <div id="picDivIn" style="border:2px solid #14213d; height: 320px;
+    width: 214px;"><img src="img/police/police_pic.jpg" /></div><div id="picDivTile" style="text-align:center;color:rgb(87,127,174);font-size:1.2em;font-weight:bold;">
+      <p style="color:#14213d;">Mr. Madhya Naik</p>
+      <p style="margin-top: -12px;font-size:0.8em;color:#14213d;">SubInspector of police</p></div></div>
                   </div>
                   <div id="msgDiv" class="col-md-8 col-sm-8 col-xs-12 col-lg-8">
-                     <h3 style="color:rgb(32,81,150);">Message</h3>
+                     <h3 style="color: #fca311;background-color: #14213d;padding: 4px;">Message</h3>
+                     <div style="margin-top: -10px;padding: 10px;background-color: rgb(241,243,244)">
                      <p>Write some meassge here</p>
                      <p> Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.</p>
                      <p> Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.</p>
+                  </div>
                   </div>
                </div>
             </div>
@@ -118,7 +124,8 @@
                <div class="row">
                   <div class="col-md-4 col-sm-4 col-xs-12 col-lg-4">
                      <div id="achDiv">
-                        <h3 style="color:rgb(32,81,150);">Achievements</h3>
+                        <h3 style="color: #fca311;background-color: #14213d;padding: 4px;    margin-top: 30px;">Achievements</h3>
+                        <div style="margin-top: -10px;padding: 7px;background-color: rgb(241,243,244)">
                              <ul id="achUL">
                               <li>Some achievement that you can write here</li>
                               <li>Some achievement that you can write here</li>
@@ -126,14 +133,17 @@
                               <li>Some achievement that you can write here</li>
                               <li>Some achievement that you can write here</li>
                            </ul>
+                        </div>
                      </div>
                     
                   </div>
                   <div id="abtDiv" class="col-md-8 col-sm-8 col-xs-12 col-lg-8" >
-                     <h3 style="margin-bottom:20px;color:rgb(32,81,150);">About</h3>
+                     <h3 style="margin-bottom:20px;color: #fca311;background-color: #14213d;padding: 4px;">About</h3>
+                     <div class="textBackground" style="margin-top: -20px;padding: 10px;background-color: rgb(241,243,244)">
                      <p>Write something about the officer</p>
                      <p> Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.</p>
                      <p> Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.</p>
+                  </div>
                   </div>
                </div>
 
@@ -146,9 +156,13 @@
          <div class="row">
             <div class="col-md-1 col-sm-0 col-lg-1 col-xs-0"></div>
             <div class="col-md-10 col-sm-12 col-lg-10 col-xs-12" style="background-color:#ffffff">
-               <div class="row" id="contact" style="text-align:center;color:rgb(87,127,174)"><h3 style="color:rgb(32,81,150);">Contact Details</h3></div>
+               <div class="row" id="contact" style="text-align:center;color:rgb(87,127,174);padding-left: 15px;
+    padding-right: 15px;"><h3 style="color: #fca311;background-color: #14213d;padding: 4px;">Contact Details</h3></div>
+
+
+               <div style="margin-top: -10px;padding: 10px;background-color: rgb(241,243,244)"">
                <div class="row">
-                  <div class="col-lg-4 col-sm-4 col-xs-12 col-md-4" style="text-align:center;color:rgb(87,127,174);font-size: 1.2em;margin-bottom:10px;">
+                  <div class="col-lg-4 col-sm-4 col-xs-12 col-md-4" style="text-align:center;font-size: 1.2em;margin-bottom:10px;">
                      <h3 style="color:rgb(32,81,150);">Address</h3>
                      <p style="font-weight:bold">Home</p>
                      <p>Street
@@ -170,7 +184,7 @@
                      401208
                      </p>
                   </div>
-                  <div class="col-lg-4 col-sm-4 col-xs-12 col-md-4" style="text-align:center;color:rgb(87,127,174);font-size: 1.2em;margin-bottom:10px;">
+                  <div class="col-lg-4 col-sm-4 col-xs-12 col-md-4" style="text-align:center;font-size: 1.2em;margin-bottom:10px;">
                      <h3 style="color:rgb(32,81,150);">Phone</h3>
                      <p style="font-weight:bold">Office</p>
                      <p>+91 81XXXXXXXX</p>
@@ -179,7 +193,7 @@
                        <p>+91 81XXXXXXXX</p>
                      <p>+91 81XXXXXXXX</p>
                   </div>
-                  <div class="col-lg-4 col-sm-4 col-xs-12 col-md-4" style="text-align:center;color:rgb(87,127,174);font-size: 1.2em;margin-bottom:10px;">
+                  <div class="col-lg-4 col-sm-4 col-xs-12 col-md-4" style="text-align:center;font-size: 1.2em;margin-bottom:10px;">
                      <h3 style="color:rgb(32,81,150);">Email</h3>
                      <p style="font-weight:bold">Office</p>
                      <p>something@gmail.com</p>
@@ -189,6 +203,12 @@
                        <p>something@gmail.com</p>
                   </div>
                </div>
+  </div>
+
+
+
+
+
             </div>
          </div>
          <div class="row">
@@ -215,5 +235,15 @@
          ga('create','UA-XXXXX-Y','auto');ga('send','pageview')
       </script>
       <script src="https://www.google-analytics.com/analytics.js" async defer></script>
+      <script>
+function myFunction() {
+    var x = document.getElementById("myTopnav");
+    if (x.className === "topnav") {
+        x.className += " responsive";
+    } else {
+        x.className = "topnav";
+    }
+}
+</script>
    </body>
 </html>
